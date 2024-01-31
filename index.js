@@ -32,7 +32,12 @@ if (
 
 app.use(morgan("dev"));
 app.use(helmet());
-app.use(cors({ origin: `${appOrigin}` }));
+const corsOptions = {
+    origin: ['http://localhost:3000', 'http://localhost:5000'], // Add your origins here
+    optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
 
 const checkJwt = auth({
     audience: authConfig.audience,

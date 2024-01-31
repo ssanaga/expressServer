@@ -1,0 +1,9 @@
+{
+  "domain": "poolcorp-demo.cic-demo-platform.auth0app.com",
+  "clientId": "fHnglTLJ7F9WDSJ2RsRn8pwIfHsmiI6I",
+  "audience": "https://pooldata/",
+  "clientcredentialClientId": "XiIOZvGadGlKsc3IofQPQH2Kmm8Pm9z2",
+  "clientcredentialClientSecret": "a0aLYvcQWYwirblEzztgZaZoAAwlNqWXud8hHrO141IaEWvnijaXJwPC3EwEH2VF",
+  "appOrigin": "http://localhost:5000",
+  "apiPort": "5000"
+}

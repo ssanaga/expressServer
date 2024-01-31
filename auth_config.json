@@ -5,5 +5,6 @@
   "clientcredentialClientId": "XiIOZvGadGlKsc3IofQPQH2Kmm8Pm9z2",
   "clientcredentialClientSecret": "a0aLYvcQWYwirblEzztgZaZoAAwlNqWXud8hHrO141IaEWvnijaXJwPC3EwEH2VF",
   "appOrigin": "http://localhost:5000",
+  "cors": "'https://pool360.vercel.app','https://ecommercepool360.vercel.app','http://localhost:3000', 'http://localhost:5000'",
   "apiPort": "5000"
 }

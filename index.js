@@ -33,7 +33,7 @@ if (
 app.use(morgan("dev"));
 app.use(helmet());
 const corsOptions = {
-    origin: ['http://localhost:3000', 'http://localhost:5000'], // Add your origins here
+    origin: [authConfig.appOrigin], // Add your origins here
     optionsSuccessStatus: 200
 };
 

@@ -33,7 +33,7 @@ if (
 app.use(morgan("dev"));
 app.use(helmet());
 const corsOptions = {
-    origin: [authConfig.appOrigin], // Add your origins here
+    origin: [authConfig.cors], // Add your origins here
     optionsSuccessStatus: 200
 };
 

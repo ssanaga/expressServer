@@ -34,7 +34,7 @@ app.use(morgan("dev"));
 app.use(helmet());
 
 const corsOptions = {
-    origin: ['https://pool360.vercel.app', 'https://ecommercepool360.vercel.app', 'http://localhost:3000', 'http://localhost:5000'], // Add your origins here
+    origin: [authConfig.cors], // Add your origins here
     optionsSuccessStatus: 200
 };
 
